@@ -15,6 +15,7 @@ namespace MVCReviewSiteProject.Models
         public string lastName { get; set; }
         public DateTime date { get; set; }
         public string description { get; set; }
+        public string rating { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }
