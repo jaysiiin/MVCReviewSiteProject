@@ -10,39 +10,35 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
-            @Html.DisplayNameFor(model => model.Category.location)
-
-            @Html.DisplayNameFor(model => model.firstName)
-
-            @Html.DisplayNameFor(model => model.lastName)
-
-            @Html.DisplayNameFor(model => model.date)
-
-            @Html.DisplayNameFor(model => model.description)
-
-            @*added the model for rating system*@
-            @Html.DisplayNameFor(model => model.rating)
+<div class="row">
+    @Html.DisplayNameFor(model => model.Category.location)
+    @Html.DisplayNameFor(model => model.firstName)
+    @Html.DisplayNameFor(model => model.lastName)
+    @Html.DisplayNameFor(model => model.date)
+    @Html.DisplayNameFor(model => model.description)
+    @*added the model for rating system*@
+    @Html.DisplayNameFor(model => model.rating)
 
 
-@foreach (var item in Model) {
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <h3>@Html.DisplayFor(modelItem => item.Category.location)</h3>
+                    @*added the rating item*@
+                    <h2>@Html.DisplayFor(modelItem => item.rating)</h2>
+                    <p>@Html.DisplayFor(modelItem => item.firstName)</p>
+                    <p>@Html.DisplayFor(modelItem => item.lastName)</p>
 
-            @Html.DisplayFor(modelItem => item.Category.location)
+                </div>
+            </div>
+        </div>
 
-            @Html.DisplayFor(modelItem => item.firstName)
+        @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+        @Html.ActionLink("Details", "Details", new { id = item.ID })
+        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
 
-            @Html.DisplayFor(modelItem => item.lastName)
- 
-            @Html.DisplayFor(modelItem => item.date)
+    }
 
-            @Html.DisplayFor(modelItem => item.description)
-
-            @*added the rating item*@
-            @Html.DisplayFor(modelItem => item.rating)
-
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID })
-            @Html.ActionLink("Details", "Details", new { id=item.ID })
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-   
-}
-
-
+</div>
