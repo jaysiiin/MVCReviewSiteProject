@@ -11,10 +11,15 @@ namespace MVCReviewSiteProject.Models
     {
         [Key]
         public int ID { get; set; }
+        [Display(Name ="First Name")]
         public string firstName { get; set; }
+        [Display(Name = "Last Name")]
         public string lastName { get; set; }
+        [Display(Name = "Date")]
         public DateTime date { get; set; }
+        [Display(Name = "Description")]
         public string description { get; set; }
+        [Display(Name = "Rating Star")]
         public string rating { get; set; }
 
         [ForeignKey("Category")]

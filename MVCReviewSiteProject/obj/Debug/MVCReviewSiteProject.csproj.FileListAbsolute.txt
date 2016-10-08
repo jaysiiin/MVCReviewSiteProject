@@ -59,3 +59,4 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSiteProject\
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.csproj.GenerateResource.Cache
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.Migrations.AddedStuff.resources
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.Migrations.AddedRating.resources
+C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.csprojResolveAssemblyReference.cache
