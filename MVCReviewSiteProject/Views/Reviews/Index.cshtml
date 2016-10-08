@@ -1,63 +1,48 @@
 ﻿@model IEnumerable<MVCReviewSiteProject.Models.Review>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Reviews";
 }
 
-<h2>Index</h2>
+<h2>User Reviews</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
+
             @Html.DisplayNameFor(model => model.Category.location)
-        </th>
-        <th>
+
             @Html.DisplayNameFor(model => model.firstName)
-        </th>
-        <th>
+
             @Html.DisplayNameFor(model => model.lastName)
-        </th>
-        <th>
+
             @Html.DisplayNameFor(model => model.date)
-        </th>
-        <th>
+
             @Html.DisplayNameFor(model => model.description)
-        </th>
-        <th>
+
+            @*added the model for rating system*@
             @Html.DisplayNameFor(model => model.rating)
-        </th>
-        <th></th>
-    </tr>
+
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
+
             @Html.DisplayFor(modelItem => item.Category.location)
-        </td>
-        <td>
+
             @Html.DisplayFor(modelItem => item.firstName)
-        </td>
-        <td>
+
             @Html.DisplayFor(modelItem => item.lastName)
-        </td>
-        <td>
+ 
             @Html.DisplayFor(modelItem => item.date)
-        </td>
-        <td>
+
             @Html.DisplayFor(modelItem => item.description)
-        </td>
-        <td>
+
+            @*added the rating item*@
             @Html.DisplayFor(modelItem => item.rating)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID })
+            @Html.ActionLink("Details", "Details", new { id=item.ID })
             @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
+   
 }
 
-</table>
+

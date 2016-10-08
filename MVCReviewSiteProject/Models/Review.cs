@@ -19,6 +19,7 @@ namespace MVCReviewSiteProject.Models
         public DateTime date { get; set; }
         [Display(Name = "Description")]
         public string description { get; set; }
+        //added rating system
         [Display(Name = "Rating Star")]
         public string rating { get; set; }
 
