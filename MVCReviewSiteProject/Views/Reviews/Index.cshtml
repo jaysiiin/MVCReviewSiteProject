@@ -4,7 +4,7 @@
     ViewBag.Title = "Reviews";
 }
 
-<h2>User Reviews</h2>
+<h2>Customer reviews</h2>
 
 <p>
     @Html.ActionLink("Wtrite a review", "Create")
@@ -27,12 +27,13 @@
                     <div class="caption">
                         <h3>@Html.DisplayFor(modelItem => item.Category.location)</h3>
                         @*added the rating item*@
-                        <h2>@Html.DisplayFor(modelItem => item.rating)</h2>
+                        <h2>@Html.DisplayFor(modelItem => item.rating) star(s)</h2>
                         <p>@Html.DisplayFor(modelItem => item.firstName)
-                           @Html.DisplayFor(modelItem => item.lastName)</p>
+                           @Html.DisplayFor(modelItem => item.lastName)
+                           @Html.DisplayFor(modelItem => item.date)</p>
                         <p>@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary" })
                            @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })
-                           @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary" })</p
+                           @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary" })</p>
                     </div>
                 </div>
             </div>
