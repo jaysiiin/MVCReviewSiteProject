@@ -1,11 +1,33 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image:url('../Pictures/sK1ve5.jpg');
+    background-size:cover;
 }
-.jumbotron{
-    background-color:transparent;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.jumbotron {
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #6fc4a9;
+}
+.col-md-4{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:-3px -1px 7px #6fc4a9;
+}
+.btn-default{
+    text-shadow:none;
+}
+.glyphicon-plane{
+    color:black;
+}
+.glyphicon-fire{
+    color:red;
+}
+.glyphicon-thumbs-up{
+    color:blue;
+}
+#dab{
+    height:200px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -13,7 +35,6 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
 
 
 /* Override the default bootstrap behavior where horizontal description lists 
