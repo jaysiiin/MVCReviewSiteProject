@@ -21,10 +21,6 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow:-3px -1px 7px #6fc4a9;
 }
-#createLink{
-    color:white;
-}
-
 .btn-default{
     text-shadow:none;
 }
@@ -85,6 +81,9 @@ h2 {
 #editBackground {
     background-image: url('../Pictures/20CULTURED3-jumbo-v2.jpg');
 }
+#editText{
+    color:white;
+}
 /*^^^^^^CODE FOR THE EDIT^^^^^^*/
 
 
@@ -93,6 +92,7 @@ h2 {
 }
 #detailCode{
     color:#6fc4a9;
+    font-family:'Comic Sans MS'
 }
 /*^^^^^^CODE FOR THE DETAIL^^^^^^*/
 
@@ -102,7 +102,9 @@ h2 {
 }
 #deleteCode{
     color:#a3a8a5;
+    font-family:'Comic Sans MS'
 }
+
 /*^^^^^^CODE FOR THE DELETE^^^^^^*/
 
 
