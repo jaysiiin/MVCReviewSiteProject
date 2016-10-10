@@ -2,46 +2,44 @@
 
 @{
     ViewBag.Title = "Reviews";
-}
+} 
+  <h2>Customer reviews</h2>
 
-<h2>Customer reviews</h2>
-
-<p>
-    @Html.ActionLink("Wtrite a review", "Create")
-</p>
+    <p>
+        @Html.ActionLink("Wtrite a review", "Create")
+    </p>
 
     @*@Html.DisplayNameFor(model => model.Category.location)
-    @Html.DisplayNameFor(model => model.firstName)
-    @Html.DisplayNameFor(model => model.lastName)
-    @Html.DisplayNameFor(model => model.date)
-    @Html.DisplayNameFor(model => model.description)
-    added the model for rating system
-    @Html.DisplayNameFor(model => model.rating)*@
+        @Html.DisplayNameFor(model => model.firstName)
+        @Html.DisplayNameFor(model => model.lastName)
+        @Html.DisplayNameFor(model => model.date)
+        @Html.DisplayNameFor(model => model.description)
+        added the model for rating system
+        @Html.DisplayNameFor(model => model.rating)*@
 
+    <div class="row">
+        @foreach (var item in Model)
+        {
 
-    @foreach (var item in Model)
-    {
-        <div class="row">
-            <div class="col-sm-4 col-md-4">
-                <div class="thumbnail">
-                    <div class="caption">
-                        <h3>@Html.DisplayFor(modelItem => item.Category.location)</h3>
-                        @*added the rating item*@
-                        <h2>@Html.DisplayFor(modelItem => item.rating) star(s)</h2>
-                        <p>@Html.DisplayFor(modelItem => item.firstName)
-                           @Html.DisplayFor(modelItem => item.lastName)
-                           @Html.DisplayFor(modelItem => item.date)</p>
-                        <p>@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary" })
-                           @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })
-                           @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary" })</p>
-                    </div>
+            <div class="col-md-4" id="reviewIndex">
+                <div class="caption">
+                    <h3>@Html.DisplayFor(modelItem => item.Category.location)</h3>
+                    @*added the rating item*@
+                    <h3>@Html.DisplayFor(modelItem => item.rating) star(s)</h3>
+                    <p>
+                        @Html.DisplayFor(modelItem => item.firstName)
+                        @Html.DisplayFor(modelItem => item.lastName)
+                        @Html.DisplayFor(modelItem => item.date)
+                    </p>
+                    <p>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary" })
+                    </p>
                 </div>
             </div>
-        </div>
 
-        @*@Html.ActionLink("Edit", "Edit", new { id = item.ID })
-       
-        @Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
 
-    }
 
+        }
+    </div>

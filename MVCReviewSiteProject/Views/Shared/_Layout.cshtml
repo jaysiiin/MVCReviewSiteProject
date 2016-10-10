@@ -6,6 +6,7 @@
     <title>@ViewBag.Title </title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Rock+Salt" rel="stylesheet">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -31,7 +32,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year -JayCo.</p>
+            <p>&copy; @DateTime.Now.Year -JayCo. <img src="~/Pictures/happy.gif" id="foxDude" /></p>
         </footer>
     </div>
 
