@@ -53,7 +53,6 @@ C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\bin\System.Web.WebPages.xml
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\bin\System.Web.WebPages.Deployment.xml
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\bin\System.Web.WebPages.Razor.xml
-C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.csprojResolveAssemblyReference.cache
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.Migrations.InitialCreate.resources
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.Migrations.AddedStuff.resources
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.Migrations.AddedRating.resources

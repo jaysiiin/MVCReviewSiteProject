@@ -6,25 +6,30 @@
     <title>@ViewBag.Title </title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Rock+Salt|Indie+Flower" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="jumbotron">
+        <h1 id="LITEST">The LITEST Travel Agency 5ever</h1>
+        <p class="lead">Kanye got ninjas in Paris, We got ninjas around the world! It's about to get lit when you come thru. Let's get it!</p>
+    </div>
+    <div class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("WE LiiiTT!", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("WE LiiiT!", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
-                    <li>@Html.ActionLink("Write review", "Create","Reviews")</li>
-                </ul>
+                    <li id="navLinks">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li id="navLinks">@Html.ActionLink("Reviews", "Index", "Reviews")</li>
+                    <li id="navLinks">@Html.ActionLink("Write review", "Create","Reviews")</li>
+               </ul>
             </div>
         </div>
     </div>

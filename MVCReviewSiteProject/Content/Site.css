@@ -2,6 +2,15 @@
     font-family: 'Kaushan Script', cursive;
     font-size:22px;
 }
+
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+#navLinks:hover{
+    background-color:#6fc4a9;
+}
 /*^^^^^^code for NAVBAR^^^^^^*/
 
 
@@ -15,6 +24,18 @@ body{
     background-color: transparent;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #6fc4a9;
+    text-align:center;
+    padding-top:0px;
+
+}
+#LITEST{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width:2px;
+    letter-spacing:5px;
+}
+.lead{
+    font-family: 'Indie Flower', cursive;
+    color:white;
 }
 .col-md-4{
     color: black;
@@ -23,9 +44,6 @@ body{
 }
 .btn-default{
     text-shadow:none;
-}
-.glyphicon-plane{
-    color:black;
 }
 .glyphicon-fire{
     color:red;
@@ -66,6 +84,13 @@ h2 {
 #reviewBackground {
     background-image: url('../Pictures/tokyo-skyline-1-1500x1000.jpg');
 }
+.btn-primary{
+    background-color:#6fc4a9;
+}
+.btn-primary:hover{
+    background-color:transparent;
+}
+
 /*^^^^^^CODE FOR THE INDEX^^^^^^*/
 
 
@@ -91,7 +116,7 @@ h2 {
     background-image: url('../Pictures/Wallpapersxl Nashville At Night Tennessee 357677 1920x1080.jpg');
 }
 #detailCode{
-    color:#6fc4a9;
+    color:white;
     font-family:'Comic Sans MS'
 }
 /*^^^^^^CODE FOR THE DETAIL^^^^^^*/
