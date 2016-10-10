@@ -59,3 +59,4 @@ C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.csproj.GenerateResource.Cache
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.dll
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.pdb
+C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\MVCReviewSiteProject\MVCReviewSiteProject\obj\Debug\MVCReviewSiteProject.csprojResolveAssemblyReference.cache

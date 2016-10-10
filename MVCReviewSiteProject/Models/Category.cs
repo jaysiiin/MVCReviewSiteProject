@@ -8,6 +8,7 @@ namespace MVCReviewSiteProject.Models
 {
     public class Category
     {
+        //fields
         public int ID { get; set; }
         [Display(Name = "Location")]
         public string location { get; set; }

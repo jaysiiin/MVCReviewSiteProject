@@ -9,6 +9,7 @@ namespace MVCReviewSiteProject.Models
 {
     public class Review
     {
+        //fields
         [Key]
         public int ID { get; set; }
         [Display(Name ="First Name")]
