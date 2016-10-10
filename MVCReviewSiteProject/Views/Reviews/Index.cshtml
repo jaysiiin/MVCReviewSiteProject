@@ -5,8 +5,8 @@
 } 
   <h2>Customer reviews</h2>
 
-    <p>
-        @Html.ActionLink("Wtrite a review", "Create")
+    <p id="createLink">
+        @Html.ActionLink("Write a review", "Create")
     </p>
 
     @*@Html.DisplayNameFor(model => model.Category.location)
@@ -17,6 +17,8 @@
         added the model for rating system
         @Html.DisplayNameFor(model => model.rating)*@
 
+
+<body id="reviewBackground">
     <div class="row">
         @foreach (var item in Model)
         {
@@ -43,3 +45,4 @@
 
         }
     </div>
+</body>

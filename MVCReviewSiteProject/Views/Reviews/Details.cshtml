@@ -5,61 +5,62 @@
 }
 
 <h2>Details</h2>
+<body id="detailBackground">
+    <div>
+        <h3 id="detailText">Review</h3>
+        <hr />
+        <dl class="dl-horizontal" id="detailCode">
+            <dt>
+                @Html.DisplayNameFor(model => model.Category.location)
+            </dt>
 
-<div>
-    <h4>Review</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.location)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Category.location)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.location)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.firstName)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.firstName)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.firstName)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.firstName)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.lastName)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.lastName)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.lastName)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.lastName)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.date)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.date)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.date)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.date)
-        </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.description)
+            </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.description)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.description)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.rating)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.description)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.rating)
-        </dt>
+            <dd>
+                @Html.DisplayFor(model => model.rating)
+            </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.rating)
-        </dd>
-
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>

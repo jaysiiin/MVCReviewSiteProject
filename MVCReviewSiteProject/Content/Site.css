@@ -1,4 +1,11 @@
-﻿body{
+﻿.navbar-inverse{
+    font-family: 'Kaushan Script', cursive;
+    font-size:22px;
+}
+/*^^^^^^code for NAVBAR^^^^^^*/
+
+
+body{
     padding-top: 50px;
     padding-bottom: 20px;
     background-image:url('../Pictures/sK1ve5.jpg');
@@ -14,6 +21,10 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow:-3px -1px 7px #6fc4a9;
 }
+#createLink{
+    color:white;
+}
+
 .btn-default{
     text-shadow:none;
 }
@@ -30,6 +41,9 @@
     height:200px;
 }
 
+/*^^^^^^code for INDEX PAGE^^^^^^*/
+
+
 /* Set padding to keep content from hitting the edges */
 
 .body-content {
@@ -37,16 +51,61 @@
     padding-right: 15px;
 }
 
-h2{
-    color:#286b6d;
+h2 {
+    color:white;
     font-family: 'Rock Salt', cursive;
-    text-shadow:-3px -1px 3px white;
+    text-shadow:-2px 6px 2px #353532;
 }
+#deleteText, #detailText{
+    color:white;
+    font-family: 'Rock Salt', cursive;
+}
+/*^^^^^^CODE FOR THE H2 and H3s FOR THE CRUD PAGES^^^^^^*/
+
 #reviewIndex{
     text-shadow:none;
     border:2px groove white;
+    color:white;
+}
+#reviewBackground {
+    background-image: url('../Pictures/tokyo-skyline-1-1500x1000.jpg');
+}
+/*^^^^^^CODE FOR THE INDEX^^^^^^*/
+
+
+#createBackground {
+    background-image: url('../Pictures/UNqmKVM.jpg');
+}
+#createCode{
+    color:white;
+}
+/*^^^^^^CODE FOR THE CREATE^^^^^^*/
+
+
+#editBackground {
+    background-image: url('../Pictures/20CULTURED3-jumbo-v2.jpg');
+}
+/*^^^^^^CODE FOR THE EDIT^^^^^^*/
+
+
+#detailBackground {
+    background-image: url('../Pictures/Wallpapersxl Nashville At Night Tennessee 357677 1920x1080.jpg');
+}
+#detailCode{
     color:#6fc4a9;
 }
+/*^^^^^^CODE FOR THE DETAIL^^^^^^*/
+
+
+#deleteBackground {
+    background-image: url('../Pictures/trash_garbage_red_funny_7946_3840x2400.jpg');
+}
+#deleteCode{
+    color:#a3a8a5;
+}
+/*^^^^^^CODE FOR THE DELETE^^^^^^*/
+
+
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -64,11 +123,13 @@ textarea {
 .form-horizontal{
     color:#6fc4a9;
 }
+
+
+footer{
+    color:white;
+}
 #foxDude{
    position:absolute;
    right:0px;
 }
-footer{
-    color:white;
-
-}
+/*^^^^^^CODE FOR THE FOOTER^^^^^^*/
